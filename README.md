@@ -1,7 +1,7 @@
 # Coalescense API 
 This API queries several upstream base URLS for plan information given a
 particular `member_id`.  The API coalesces the results, by default using the
-arithmetic mean. The user can also optionally send weights to the API. to
+arithmetic mean. The user can also optionally send weights to the API to
 specify a strategy that weights the results' mean, median and mode. The API
 can be imported as a Python API or can be instantiated as a Flask app. 
 
