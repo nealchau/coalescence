@@ -22,5 +22,5 @@ low-level API querying mechanism. This allows the API to query the upstream
 APIs using the requests or urllib libraries through provided adaptors without
 modification, and likewise enables the testing framework to provide simulated
 results without modification. (In a production environment the choice of
-adaptor could be defaulted or wrapped with a particular choice for an end
+adaptor could be defaulted or wrapped with a particular choice for end
 users.)
